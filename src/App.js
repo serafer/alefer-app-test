@@ -17,13 +17,13 @@ function App() {
         <CartProvider>
           <SuperiorNavbar />
           <Navbar />
-          <Routes>
+          <Router>
             <Route path="/" element={<ItemListContainer greeting={'Andes Drink Co | E-Commerce'} />} />
             <Route path="/category/:category" element={<ItemListContainer greeting={'Productos filtrados por categoria'} />} />
             <Route path="/item/:itemId" element={<ItemDetailContainer />} />
             <Route path="/cart" element={<CartContainer  greeting={'Cart'}/> } />
             <Route path="/Checkout" element={<Checkout  greeting={'Checkout'}/> } />
-          </Routes>
+          </Router>
         </CartProvider>
       </BrowserRouter>
     </div>

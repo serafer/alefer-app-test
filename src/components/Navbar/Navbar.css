@@ -1,0 +1,17 @@
+.navbar {
+
+    width: 100%;
+}
+
+.navbarLink {
+
+    text-decoration: none;
+    color: rgb(109, 101, 101);
+    margin: 5px;
+}
+
+.navbarLink:hover {
+
+    color: rgb(0, 0, 0);
+    
+}

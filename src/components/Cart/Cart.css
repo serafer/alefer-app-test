@@ -1,0 +1,50 @@
+.cart-box {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+
+
+  width: 1000px;
+  text-transform: uppercase;
+  border: solid grey;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 10px;
+  box-shadow: 4px 4px 4px rgb(0 0 0 / 50%);
+}
+
+.cart-box-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cart-box-title {
+  font-weight: bold;
+}
+
+.cart-button-delete {
+  text-decoration: none;
+
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: red;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 10px;
+  height: 100%;
+  align-content: center;
+  padding: 8px;
+  margin: 0px;
+  align-items: center;
+  
+}
+
+.cartButtonsAddLess {
+  width: 7%;
+  background-color: rgb(253, 253, 253);
+  color: black;
+  size: 25px;
+  border: solid black;
+  border-color: white ;
+}

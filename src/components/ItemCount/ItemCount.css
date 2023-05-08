@@ -1,0 +1,41 @@
+.item-counter-box {
+    margin-top: 10px;
+    font-weight: lighter;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+
+        width: 40%;
+        border: none;
+        outline: none;
+        background-color: rgba(41, 51, 65, 1);
+        color: #fff;
+        cursor: pointer;
+        transition: 0.5s;
+        border-radius: 10px;
+        height: 30px;
+        margin: 3%;
+    
+}
+
+.selector {
+    width: 7%;
+background-color: rgb(253, 253, 253);
+color: black;
+size: 25px;
+border: solid black;
+border-color: white ;
+}
+
+.numb {
+    padding: 0;
+    font-weight: 600;
+}
+

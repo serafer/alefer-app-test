@@ -1,0 +1,12 @@
+.SuperiorNavbar {
+
+    width: 100%;
+
+    background-color:rgba(41,51,65,1);
+    color: white;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+

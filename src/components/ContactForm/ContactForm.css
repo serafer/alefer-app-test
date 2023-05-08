@@ -1,0 +1,32 @@
+
+.contactFormContainer{
+
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+  padding: 50px;
+
+}
+
+.contactFormContainer input{
+
+  border: 1px solid #dfdfdf;
+  padding: 10px;
+  border-radius: 5px;
+  background: #fff;
+  
+margin: 5px;
+
+}
+
+.contactFormSubmitButton {
+    background: rgba(41,51,65,1);
+    color: #fff;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
